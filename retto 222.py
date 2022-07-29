@@ -44,7 +44,7 @@ def cliente (informacion:dict)-> dict:
         'total_boleta':total_boleta
     }
 
-    return respuesta #unico
+    return respuesta #unico e indiferente
 
 informacion={'nombre':'Johana Fernandez', 'edad':20, 'primer_ingreso':True}
 print(cliente(informacion))
